@@ -17,7 +17,7 @@ def gameloop():
     mixer.init()
     clock = pygame.time.Clock()
     mixer.music.load(r'material\background_music.mp3')
-    mixer.music.play(-1)w
+    mixer.music.play(-1)
     screen = pygame.display.set_mode((799, 600))  # 2 brackets are necessary
     pygame.display.set_caption('space invaders')
     icon = pygame.image.load(r'material\monster.png')
